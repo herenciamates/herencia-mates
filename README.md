@@ -1,16 +1,51 @@
-# React + Vite
+# Herencia Mates — Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Landing page para **Herencia Mates**, un emprendimiento dedicado a la venta de mates, accesorios y combos. El sitio está pensado para mostrar el catálogo, contar un poco sobre quiénes somos y dejar un canal de contacto directo.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ¿Qué tiene el sitio?
 
-## React Compiler
+- **Productos** — tres catálogos separados: mates, accesorios y combos, cada uno con su propia identidad visual.
+- **Nosotros** — una sección que cuenta el propósito detrás de Herencia.
+- **Contacto** — formulario para que los clientes puedan escribirnos sin complicaciones.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- CSS propio (sin frameworks de UI)
+- Variables CSS para mantener la paleta de colores consistente en todo el sitio
+
+---
+
+## Estructura del proyecto
+
+```
+src/
+├── components/
+│   ├── productos/
+│   │   ├── Productos.jsx
+│   │   └── ProductosCard.jsx
+│   └── ...
+├── data/
+│   └── ProductosData.js
+└── styles/
+    └── estiloGeneral.css
+```
+
+---
+
+## Correr el proyecto
+
+```bash
+npm install
+npm run dev
+```
+
+---
+
+## Notas
+
+La paleta de colores gira alrededor del verde inglés (`#4B6B57`) con tonos crema y tierra que acompañan. Todo el diseño responsive está manejado con `@media` queries en el CSS global, sin estilos inline, para que escale bien desde escritorio hasta móvil.
