@@ -8,7 +8,7 @@ Landing page para **Herencia Mates**, un emprendimiento dedicado a la venta de m
 
 - **Productos** — tres catálogos separados: mates, accesorios y combos, cada uno con su propia identidad visual.
 - **Nosotros** — una sección que cuenta el propósito detrás de Herencia.
-- **Contacto** — formulario para que los clientes puedan escribirnos sin complicaciones.
+- **Contacto** — Para que los clientes puedan escribirnos sin complicaciones.
 
 ---
 
@@ -17,32 +17,6 @@ Landing page para **Herencia Mates**, un emprendimiento dedicado a la venta de m
 - React
 - CSS propio (sin frameworks de UI)
 - Variables CSS para mantener la paleta de colores consistente en todo el sitio
-
----
-
-## Estructura del proyecto
-
-```
-src/
-├── components/
-│   ├── productos/
-│   │   ├── Productos.jsx
-│   │   └── ProductosCard.jsx
-│   └── ...
-├── data/
-│   └── ProductosData.js
-└── styles/
-    └── estiloGeneral.css
-```
-
----
-
-## Correr el proyecto
-
-```bash
-npm install
-npm run dev
-```
 
 ---
 
