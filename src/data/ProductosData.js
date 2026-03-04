@@ -1,7 +1,8 @@
+const base = import.meta.env.BASE_URL;
 export const mates = [
   {
     id: 1,
-    img: "../src/img/imperial-alpaca.jpg",
+    img: `${base}img/imperial-alpaca.jpg`,
     tag: "Premium",
     nombre: "Imperial Alpaca",
     desc: "Terminación en alpaca con acabado impecable y muy buen peso en mano.",
@@ -9,7 +10,7 @@ export const mates = [
   },
   {
     id: 2,
-    img: "../src/img/Imperial-PREMIUM.jpg",
+    img: `${base}img/Imperial-PREMIUM.jpg`,
     tag: "Exclusivo",
     nombre: "Imperial Premium",
     desc: "Diseño refinado con los más altos estándares de calidad y presentación.",
@@ -17,7 +18,7 @@ export const mates = [
   },
   {
     id: 3,
-    img: "../src/img/Torpedo-ALPACA.jpg",
+    img: `${base}img/Torpedo-ALPACA.jpg`,
     tag: "Alpaca",
     nombre: "Torpedo Alpaca",
     desc: "Forma torpedo con terminación en alpaca con estética atemporal que nunca pasa de moda.",
@@ -25,7 +26,7 @@ export const mates = [
   },
   {
     id: 4,
-    img: "../src/img/Torpedo-ALUMINIO.jpg",
+    img: `${base}img/Torpedo-ALUMINIO.jpg`,
     tag: "Liviano",
     nombre: "Torpedo Aluminio",
     desc: "Forma torpedo en aluminio de alta calidad. Liviano, resistente.",
@@ -33,7 +34,7 @@ export const mates = [
   },
   {
     id: 5,
-    img: "../src/img/Torpedo-PREMIUM.jpg",
+    img: `${base}img/Torpedo-PREMIUM.jpg`,
     tag: "Premium",
     nombre: "Torpedo Premium",
     desc: "La versión más refinada del torpedo. Materiales y terminaciones de primer nivel.",
@@ -41,7 +42,7 @@ export const mates = [
   },
   {
     id: 6,
-    img: "../src/img/Camionero-ACERO.jpg",
+    img: `${base}img/Camionero-ACERO.jpg`,
     tag: "Acero",
     nombre: "Camionero Acero",
     desc: "El favorito del viajero. Robusto, con tapa y tamaño generoso. Aguanta cualquier aventura.",
@@ -49,14 +50,14 @@ export const mates = [
   },
   {
     id: 7,
-    img: "../src/img/Camionero-ALPACA.jpg",
+    img: `${base}img/Camionero-ALPACA.jpg`,
     tag: "Alpaca",
     nombre: "Camionero Alpaca",
     desc: "Forrado en cuero borravino con elegante terminación en alpaca.",
     precio: 16000
   },{
      id: 8,
-    img: "../src/img/camionero-algarrobo.png",
+    img: `${base}img/camionero-algarrobo.png`,
     tag: "Madera",
     nombre: "Camionero Algarrobo",
     desc: "Mate de algarrobo clásico y de estilo tradicional.",
@@ -68,7 +69,7 @@ export const accesoriosCanastas = [
   
   {
     id: 1,
-    img: "../src/img/bombilla-inox.png",
+    img: `${base}img/bombilla-inox.png`,
     tag: "Accesorio",
     nombre: "Bombilla Acero Inoxidable",
     desc: "Bombilla de acero inoxidable duradera y fácil de limpiar.",
@@ -76,7 +77,7 @@ export const accesoriosCanastas = [
   },
   {
     id: 2,
-    img: "../src/img/canasta-simple.png",
+    img: `${base}img/canasta-simple.png`,
     tag: "Canasta",
     nombre: "Canasta Simple",
     desc: "Canasta matera simple, práctica y funcional.",
@@ -84,7 +85,7 @@ export const accesoriosCanastas = [
   },
   {
     id: 3,
-    img: "../src/img/canasta-con-tapa.png",
+    img: `${base}img/canasta-con-tapa.png`,
     tag: "Canasta",
     nombre: "Canasta con Tapa",
     desc: "Canasta matera con tapa para mayor protección y estilo.",
@@ -92,7 +93,7 @@ export const accesoriosCanastas = [
   },
   {
     id: 4,
-    img: "../src/img/canasta-croco.png",
+    img: `${base}img/canasta-croco.png`,
     tag: "Canasta",
     nombre: "Canasta Croco",
     desc: "Canasta con diseño croco elegante y moderno.",
@@ -103,7 +104,7 @@ export const accesoriosCanastas = [
 export const combos = [
 {
     id: 1,
-    img: "../src/img/termobala.jpeg",
+    img: `${base}img/termobala.jpeg`,
     tag: "Termo",
     nombre: "Termo Bala",
     desc: "Termo compacto y práctico para acompañar tu mate en cualquier momento.",
@@ -111,14 +112,14 @@ export const combos = [
   },
   {
     id: 2,
-    img: "../src/img/combo-matero-black.png",
+    img: `${base}img/combo-matero-black.png`,
     tag: "Combo",
     nombre: "Combo Matero",
     desc: "Kit completo para el matero exigente. Ideal para regalo.",
     precio: 60000
   },{
     id: 3,
-    img: "../src/img/combo-matero-croco.png",
+    img: `${base}img/combo-matero-croco.png`,
     tag: "Combo",
     nombre: "Combo Matero",
     desc: "Set premium con mate de cuero de alpaca, termo bala y canasta croco. Elegancia y funcionalidad.",
@@ -126,7 +127,7 @@ export const combos = [
   },
   {
     id: 4,
-    img: "../src/img/combo-con-tapa.png",
+    img: `${base}img/combo-con-tapa.png`,
     tag: "Combo",
     nombre: "Combo Matero",
     desc: "Set matero con canasta con tapa y mate camionero de algarrobo. Protección y estilo en uno",

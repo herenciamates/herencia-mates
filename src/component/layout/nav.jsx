@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-
+const base = import.meta.env.BASE_URL;
 const Nav = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   
@@ -82,7 +82,7 @@ const Nav = () => {
 
         <div className="hero-visual">
           <div className="hero-card-big">
-            <img src="../src/img/logo.jpg" alt="Logo Herencia Mates" />
+            <img src={`${base}img/logo.jpg`} alt="Logo Herencia Mates" />
             <div className="nav-logo"> 
               <strong style={{ color: "#c0d8b8" }}>Herencia</strong> 
               <span>Mates</span> 
