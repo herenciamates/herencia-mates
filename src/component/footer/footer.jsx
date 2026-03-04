@@ -26,8 +26,8 @@ const Footer = ({ isMenuOpen, setIsMenuOpen }) => {
     {
       icon: <MessageCircle size={20} />,
       label: 'WhatsApp',
-      value: '+54 9 3700 000-000',
-      href: 'https://wa.me/5493700000000',
+      value: '+54 9 3755 66-4112',
+      href: 'https://wa.me/5493755664112',
       external: true,
     },
     {
@@ -40,8 +40,8 @@ const Footer = ({ isMenuOpen, setIsMenuOpen }) => {
     {
       icon: <Mail size={20} />,
       label: 'Email',
-      value: 'hola@materia.com.ar',
-      href: 'mailto:hola@materia.com.ar',
+      value: 'herenciamates2026@gmail.com',
+      href: 'mailto:herenciamates2026@gmail.com?subject=Consulta%20Herencia%20Mates&body=Hola,%20quisiera%20información%20sobre...',
       external: false,
     },
     {
