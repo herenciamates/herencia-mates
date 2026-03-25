@@ -928,22 +928,31 @@
 }
 /* ── Cita base (mates) ───────────────────────────── */
 .cita-grid-full {
-  grid-column: span 2;   /* ocupa 1 columna en desktop */
+  grid-column: span 1;   /* ocupa 1 columna en desktop */
   max-width: 300px;
   align-self: center;
   margin-left: 6rem;
   margin-bottom: 2rem;
+  justify-self: end;
+}
+
+/* ── Citas secundarias (accesorios y combos) ─────── */
+cita-grid-full {
+  grid-column: span 1;   /* ocupa 1 columna en desktop */
+  max-width: 300px;
+  align-self: center;
+  margin-left: 6rem;
+  margin-bottom: 2rem;
+  justify-self: end;
 }
 
 /* ── Citas secundarias (accesorios y combos) ─────── */
 .cita-secundaria {
-  grid-column: span 1;   /* ocupa 1 columna en desktop */
+  grid-column-start: -2; /* siempre la penúltima columna, o -1 para la última */
   max-width: 250px;
-  align-self: center;
-  margin-left: 3rem;
+  align-self: end;
   margin-bottom: 2rem;
 }
-
 /* ── Variante chica del quote ─────────────────────── */
 .proposito-quote--chico {
   padding: 1rem 1.25rem;

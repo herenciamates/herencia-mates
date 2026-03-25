@@ -36,7 +36,7 @@ const Productos = ({ isMenuOpen, setIsMenuOpen }) => {
           <ProductoCard key={producto.id} producto={producto} />
         ))}
         <div className="cita-grid-full cita-mates">
-          <div className="proposito-quote">
+          <div className="proposito-quote proposito-quote--chico">
             <p>"El mate es nuestra manera de decir: tenemos tiempo para vos."</p>
             <cite>— Atte: Herencia</cite>
           </div>

@@ -18,30 +18,6 @@ export const mates = [
   },
   {
     id: 3,
-    img: `${base}img/Torpedo-ALPACA.jpg`,
-    tag: "Alpaca",
-    nombre: "Torpedo Alpaca",
-    desc: "Forma torpedo con terminación en alpaca con estética atemporal que nunca pasa de moda.",
-    precio: 21500
-  },
-  {
-    id: 4,
-    img: `${base}img/Torpedo-ALUMINIO.jpg`,
-    tag: "Liviano",
-    nombre: "Torpedo Aluminio",
-    desc: "Forma torpedo en aluminio de alta calidad. Liviano, resistente.",
-    precio: 12000
-  },
-  {
-    id: 5,
-    img: `${base}img/Torpedo-PREMIUM.jpg`,
-    tag: "Premium",
-    nombre: "Torpedo Premium",
-    desc: "La versión más refinada del torpedo. Materiales y terminaciones de primer nivel.",
-    precio: 24500
-  },
-  {
-    id: 6,
     img: `${base}img/Camionero-ACERO.jpg`,
     tag: "Acero",
     nombre: "Camionero Acero",
@@ -49,14 +25,7 @@ export const mates = [
     precio: 13300
   },
   {
-    id: 7,
-    img: `${base}img/Camionero-ALPACA.jpg`,
-    tag: "Alpaca",
-    nombre: "Camionero Alpaca",
-    desc: "Forrado en cuero borravino con elegante terminación en alpaca.",
-    precio: 16000
-  },{
-     id: 8,
+    id: 4,
     img: `${base}img/camionero-algarrobo.png`,
     tag: "Madera",
     nombre: "Camionero Algarrobo",
@@ -82,22 +51,6 @@ export const accesoriosCanastas = [
     nombre: "Canasta Simple",
     desc: "Canasta matera simple, práctica y funcional.",
     precio: 15000
-  },
-  {
-    id: 3,
-    img: `${base}img/canasta-con-tapa.png`,
-    tag: "Canasta",
-    nombre: "Canasta con Tapa",
-    desc: "Canasta matera con tapa para mayor protección y estilo.",
-    precio: 18000
-  },
-  {
-    id: 4,
-    img: `${base}img/canasta-croco.png`,
-    tag: "Canasta",
-    nombre: "Canasta Croco",
-    desc: "Canasta con diseño croco elegante y moderno.",
-    precio: 16000
   }
   
 ];
@@ -117,20 +70,4 @@ export const combos = [
     nombre: "Combo Matero",
     desc: "Kit completo para el matero exigente. Ideal para regalo.",
     precio: 60000
-  },{
-    id: 3,
-    img: `${base}img/combo-matero-croco.png`,
-    tag: "Combo",
-    nombre: "Combo Matero",
-    desc: "Set premium con mate de cuero de alpaca, termo bala y canasta croco. Elegancia y funcionalidad.",
-    precio: 45000
-  },
-  {
-    id: 4,
-    img: `${base}img/combo-con-tapa.png`,
-    tag: "Combo",
-    nombre: "Combo Matero",
-    desc: "Set matero con canasta con tapa y mate camionero de algarrobo. Protección y estilo en uno",
-    precio: 49000
-  }
-]
+  }]

@@ -102,12 +102,13 @@ const Footer = ({ isMenuOpen, setIsMenuOpen }) => {
           Herencia<span>Mates</span>
         </div>
         <div className="footer-copy">
-          © 2026 Matería · Oberá, Misiones · Hecho con un🧉
+          © 2026 Herencia Mates · Oberá, Misiones · Hecho con un🧉
         </div>
         <div className="footer-socials">
-          <a href="#" title="Instagram" aria-label="Instagram"><Instagram size={16} /></a>
-          <a href="#" title="WhatsApp" aria-label="WhatsApp"><MessageCircle size={16} /></a>
-          <a href="#" title="Email" aria-label="Email"><Mail size={16} /></a>
+          <a href={contactItems[1].href} title="Instagram" aria-label="Instagram"><Instagram size={16} /></a>
+          <a href={contactItems[0].href} title="WhatsApp" aria-label="WhatsApp"><MessageCircle size={16} /></a>
+          <a href={contactItems[2].href} title="Email" aria-label="Email"><Mail size={16} /></a>
+          
         </div>
       </footer>
     </>
